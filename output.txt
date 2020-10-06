@@ -1,0 +1,44 @@
+Successful allocation.
+
+PID 2460 created.
+PID 603 created.
+PID 4975 created.
+
+--Before release--
+2460 status: true
+2460 true
+
+-------------
+The PID 2460 is released
+-------------
+
+--After release--
+2460 status: false
+2460 false
+
+--Before release--
+603 status: true
+603 true
+
+-------------
+The PID 603 is released
+-------------
+
+--After release--
+
+603 status: false
+603 false
+
+--Before release--
+
+4975 status: true
+4975 true
+
+-------------
+The PID 4975 is released
+-------------
+
+--After release--
+
+4975 status: false
+4975 false
